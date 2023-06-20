@@ -67,7 +67,15 @@ public class Main {
 
     }
     private static void task4() {
-        System.out.println("задача 4");}
+        System.out.println("задача 4");
+        int[] weight={1,2,3};
+        for (int i = 0; i <=2; i++) {
+            if (i % 2==0){
+                weight[i]++;
+                System.out.println(weight[i]);
+            }
+        }
+    }
 
     private static void task5() {
         System.out.println("задача 5");}
