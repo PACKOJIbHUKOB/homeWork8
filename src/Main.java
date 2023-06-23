@@ -7,7 +7,6 @@ public class Main {
         task3();
         task4();
     }
-
     private static void task1() {
         System.out.println("задача 1");
         System.out.println("<массив 1>,");
@@ -23,7 +22,6 @@ public class Main {
         double[] random = {153, 247, 854.26, 1243.01, 6578.12};
         System.out.println(Arrays.toString(random));
     }
-
     private static void task2() {
         System.out.println("задача 2");
         int[] weight = {1, 2, 3};
@@ -90,8 +88,8 @@ public class Main {
     private static void task4() {
         System.out.println("задача 4");
         int[] weight = {1, 2, 3};
-        for (int i = 0; i <= 2; i++) {
-            if (i % 2 == 0) {
+        for (int i = 0; i < weight.length; i++) {
+            if (weight[i] % 2 != 0) {
                 weight[i]++;
                 System.out.println(weight[i]);
             }
